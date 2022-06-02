@@ -1,4 +1,4 @@
-const arr = [12, 11, -13, -5, 6, -7, 5, -3, -6];
+const arr = [12, 11, -13, -5, 6, -7, 5, -3, -6, 9];
 let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {

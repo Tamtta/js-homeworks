@@ -5,6 +5,7 @@ for (let i = 0; i < arr.length; i++) {
     console.log("Exist!");
     break;
   } else {
-    console.log("");
+    continue;
+    // console.log("");
   }
 }

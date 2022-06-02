@@ -1,8 +1,10 @@
 const a = 3;
+
 switch (a) {
   case 0:
     console.log(0);
     break;
+
   case 1:
     console.log(1);
     break;
@@ -11,6 +13,7 @@ switch (a) {
   case 3:
     console.log("2 or 3");
     break;
+
   default:
     console.log("Wrong number!");
 }
