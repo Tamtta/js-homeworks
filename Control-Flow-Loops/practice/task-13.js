@@ -6,6 +6,5 @@ for (let i = 0; i < arr.length; i++) {
     break;
   } else {
     continue;
-    // console.log("");
   }
 }
