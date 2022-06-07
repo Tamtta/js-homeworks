@@ -1,8 +1,8 @@
 function genericFunction(func) {
-  if (typeof func === "function") {
+  try {
     func();
-  } else {
-    throw new Error("parameter type is not a function");
+  } catch (err) {
+    console.log(err.message);
   }
 }
 
@@ -20,11 +20,8 @@ function sum(a, b) {
   return a + b;
 }
 
-try {
-  // genericFunction(addOne);
-  // genericFunction(sayHello);
-  // genericFunction("hi");
-  console.log(genericFunction(sum(2, 3)));
-} catch (err) {
-  console.log(err.message);
-}
+// genericFunction(addOne);
+// genericFunction(sayHello);
+// genericFunction("hi");
+// console.log(genericFunction(sum(2, 3)));
+genericFunction(5);
