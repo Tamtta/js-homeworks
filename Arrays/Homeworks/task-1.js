@@ -44,4 +44,4 @@ const arr6 = "dhjf";
 // console.log(f(arr6)); // err;
 
 const arr7 = [[[[[1, 2]]], 2], "123"];
-console.log(f(arr7));
+// console.log(f(arr7)); // err;
