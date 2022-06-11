@@ -18,3 +18,5 @@ function reverseCase(sentence) {
 
 console.log(reverseCase("Hello theRe"));
 console.log(reverseCase("BIG LETTERS"));
+console.log(reverseCase("Tamtukiiiiiiiiiiiiiiiiiii"));
+// console.log(reverseCase(["Tamtukiiiiiiiiiiiiiiiiiii"])); // err;
