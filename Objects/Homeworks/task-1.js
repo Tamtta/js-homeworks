@@ -11,7 +11,7 @@ function readingStatus(books) {
 
   books.forEach((book) =>
     console.log(
-      `${book.author} ${book.haveRead ? "have" : "hasn't"} read ${
+      `${book.author} ${book.haveRead ? "has" : "hasn't"} read ${
         book.title
       } book`
     )
